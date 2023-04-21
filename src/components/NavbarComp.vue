@@ -35,4 +35,7 @@
  #bar {
     font-family: Arial, Helvetica, sans-serif;
  }
+ hr.new1 {
+   border-top: 2px solid #3C4144;
+ }
 </style>
