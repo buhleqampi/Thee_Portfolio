@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <p>Hello</p>
+    <img src="https://i.postimg.cc/YSc3kvrn/C11-Buhle-Qampi-3.jpg" alt="picture"/> 
   </div>
 </template>
 

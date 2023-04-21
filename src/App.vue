@@ -1,17 +1,21 @@
 <template>
-  <Navbar/>
-  <router-view/>
+<NavbarComp/>
+<router-view/>
+<FooterComp/>
 </template>
 
 <script>
-import Navbar  from '@/components/NavbarComp.vue'
-export default {
-  components: Navbar
-}
+import NavbarComp from '@/components/NavbarComp.vue'
+import FooterComp from '@/components/FooterComp.vue'
+  export default {
+    components: {
+      NavbarComp, FooterComp
+    }
+  }
 </script>
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
