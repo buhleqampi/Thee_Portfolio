@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar navbar-expand-sm"> 
+<nav class="navbar navbar-expand-md"> 
 <ul>
 <li style="display:inline" id="bar">
 <router-link to="/">Home</router-link> 
@@ -25,17 +25,20 @@
 </template>
 
 <style scoped>
- li {
-    padding:10px;
- }
- ul li a{
-    text-decoration: none;
-    color:black;
- }
- #bar {
-    font-family: Arial, Helvetica, sans-serif;
- }
- hr.new1 {
-   border-top: 2px solid #3C4144;
- }
+nav ul li {
+   font-family: Arial, Helvetica, sans-serif;
+}
+   li {
+      padding:10px;
+   }
+   ul li a{
+      text-decoration: none;
+      color:black;
+   }
+   #bar {
+      font-family: Arial, Helvetica, sans-serif;
+   }
+   hr {
+      border-top: 2px solid #3C4144;
+   }
 </style>
