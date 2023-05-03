@@ -15,7 +15,7 @@ import FooterComp from '@/components/FooterComp.vue'
 </script>
 <style>
 #app {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Old Standard TT;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -24,5 +24,6 @@ import FooterComp from '@/components/FooterComp.vue'
 
 .content {
   background-color: #E4DBCF;
+  min-height:100%;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-     <div class="footer footer-expand-lg row" id="only">
+    <div class="footer footer-expand-lg row fixed-bottom" id="only">
         <ul>
             <li>
                 <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -28,11 +28,11 @@
 }
 ul li a {
     color:black;
-    width: 50px;
+    width: 100px;
+    margin-top:10px;
 }
 ul li {
     display: inline;
-    margin-top:5px;
     padding:10px;
 }
 </style>
