@@ -128,4 +128,8 @@
     color: white;
     margin-top: 15px;
   }
+  .col{
+    padding:5px;
+    size-adjust: 50px;
+  }
 }</style>
