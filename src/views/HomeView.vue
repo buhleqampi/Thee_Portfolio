@@ -7,35 +7,35 @@
   </div>
 </template>
 
-<!-- <script>
+ <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+// import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
+  // name: 'HomeView',
+  // components: {
+  //   HelloWorld
+  // }
 }
-</script> -->
-<!-- <style scoped>
-h6{
+</script>
+<style scoped>
+/* h6{
 position: absolute;
-width: 2111px;
-height: 304px;
-left: 1656px;
+width: 100px;
+height: 100vh;
+left: 206px;
 top: 276px;
 
 font-family: 'Old Standard TT';
 font-style: normal;
-font-weight: 400;
+font-weight: 100px;
 font-size: 100px;
 line-height: 124px;
 
 color: #000000;
 
-}
-h1{
+} */
+/* h1{
 position: absolute;
 width: 1530px;
 height: 1020px;
@@ -50,13 +50,13 @@ line-height: 494px;
 
 color: #000000;
 
-}
-.description {
+} */
+/* .description {
 position: absolute;
-width: 3784px;
-height: 234px;
-left: 1365px;
-top: 2194px;
+width: 30px;
+height: 34px;
+left: 65px;
+top: 94px;
 
 font-family: 'Old Standard TT';
 font-style: normal;
@@ -65,13 +65,13 @@ font-size: 100px;
 line-height: 124px;
 color: #000000;
 
-}
-p{
+} */
+/* p{
 position: absolute;
-width: 1425px;
+width: 425px;
 height: 522px;
-left: 1251px;
-top: 2810px;
+left: 251px;
+top: 810px;
 
 font-family: 'Old Standard TT';
 font-style: normal;
@@ -81,14 +81,14 @@ line-height: 124px;
 
 color: #000000;
 
-}
+} */
 .home{
 position: absolute;
-width: 2375px;
-height: 3202px;
-left: 4559px;
-top: 276px;*/
+width: 375px;
+height: 202px;
+left: 559px;
+top: 276px;
 
 background: url("https://i.postimg.cc/YSc3kvrn/C11-Buhle-Qampi-3.jpg");
 }
-</style> -->
+</style>

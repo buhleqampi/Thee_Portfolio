@@ -37,7 +37,20 @@
            </div>
 
        </div>
+      <h2 class="tech">TECH STACK</h2>
+       <div class="col">
+       <i class="fa-brands fa-html5"></i>
+       <i class="fa-brands fa-css3-alt"></i>
+       <i class="fa-brands fa-square-js"></i>
+       <i class="fa-brands fa-node-js"></i>
+       <i class="fa-brands fa-vuejs"></i>
+       <i class="fa-brands fa-bootstrap"></i>
+       <i class="fa-brands fa-figma"></i>
+       <i class="fa-brands fa-wordpress"></i>
+       <i class="fa-brands fa-microsoft"></i>
+      </div>
 </section>
+
 </template>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
@@ -110,5 +123,9 @@
     background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
+  }
+  .tech{
+    color: white;
+    margin-top: 15px;
   }
 }</style>
