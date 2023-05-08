@@ -33,7 +33,7 @@ nav ul li {
    }
    ul li a{
       text-decoration: none;
-      color:black;
+      color:whitesmoke;
    }
    #bar {
       font-family: Arial, Helvetica, sans-serif;

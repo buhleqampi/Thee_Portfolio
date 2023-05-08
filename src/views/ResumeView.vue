@@ -1,8 +1,7 @@
 <template>
-    
-<section class="design-section">
-    <h1 class="text-white">RESUME</h1>
-<div class="timeline">
+  <h1 class="d-flex justify-content-center mt-5 text-white">RESUME</h1>
+  <section class="design-section"> 
+  <div class="timeline">
     <div class="timeline-empty">
                   </div>
                   <div class="timeline-middle">
@@ -37,22 +36,25 @@
            </div>
 
        </div>
-      <h2 class="tech">TECH STACK</h2>
-       <div class="col">
-       <i class="fa-brands fa-html5"></i>
-       <i class="fa-brands fa-css3-alt"></i>
-       <i class="fa-brands fa-square-js"></i>
-       <i class="fa-brands fa-node-js"></i>
-       <i class="fa-brands fa-vuejs"></i>
-       <i class="fa-brands fa-bootstrap"></i>
-       <i class="fa-brands fa-figma"></i>
-       <i class="fa-brands fa-wordpress"></i>
-       <i class="fa-brands fa-microsoft"></i>
+       <div class="container text-center">
+      <h1 class="tech">TECH STACK</h1>
+       <div class="row">
+       <div class="col"><i class="fa-brands fa-html5 fa-6x"></i></div>
+       <div class="col"><i class="fa-brands fa-css3-alt fa-6x"></i></div>
+        <div class="col"><i class="fa-brands fa-square-js fa-6x"></i></div>
+        <div class="col"><i class="fa-brands fa-node-js fa-6x"></i></div>
+        </div>
+        <div class="row">
+        <div class="col"><i class="fa-brands fa-vuejs fa-6x"></i></div>
+        <div class="col"><i class="fa-brands fa-bootstrap fa-6x"></i></div>
+        <div class="col"><i class="fa-brands fa-figma fa-6x"></i></div>
+        <div class="col"><i class="fa-brands fa-wordpress fa-6x"></i></div>
+        </div>
       </div>
 </section>
 
 </template>
-<style>
+<style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
 .design-section {
   display: flex;
@@ -72,7 +74,7 @@
 }
 
 .timeline {
-  width: 80%;
+  width: 50%;
   height: auto;
   max-width: 800px;
   margin: 0 auto;
@@ -126,10 +128,9 @@
   }
   .tech{
     color: white;
-    margin-top: 15px;
+    margin-top: 25px;
   }
   .col{
-    padding:5px;
-    size-adjust: 50px;
+    padding:3px;
   }
 }</style>
