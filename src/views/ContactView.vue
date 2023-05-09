@@ -1,7 +1,7 @@
 <template>
     <div>
         <h6 class="text-white">BUHLE QAMPI</h6>
-        <h1 class="d-flex justify-content-center mt-5 text-white">CONNECT WITH ME</h1>
+        <h1 class="d-flex justify-content-center mt-2 text-white">CONNECT WITH ME</h1>
     </div>
         <form action="https://formspree.io/f/mwkjydzb">
     <div class="mb-3 ">

@@ -1,7 +1,7 @@
 <template>
       <div class="container px-5">
     <div class="row" style="height: 100%;">
-  <h1 class="d-flex justify-content-center mt-5 text-white">ABOUT ME</h1> 
+  <h1 class="d-flex justify-content-center mt-2 text-white">ABOUT ME</h1> 
   <div class="row d-flex flex-column flex-sm-row justify-content-center">
     <div class="col">
       <img src="https://i.postimg.cc/3J3jBGzN/My-project.jpg" alt="picture"/>

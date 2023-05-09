@@ -1,19 +1,19 @@
 <template>
-  <div class="home">
-    <div class="row">
-      <div class="col">
+      <div class="container">
         <video autoplay loop muted playsinline class="Video">
         <source src="../assets/Video.mp4" type="video/mp4" />
       </video>
-      </div>
-      <div class="col">
-        <h6>FULL STACK WEB DEVELOPER || UI/UX DESIGNER</h6>
+      <div class="overlay">
+      <h6>FULL STACK WEB DEVELOPER || UI/UX DESIGNER</h6>
         <h1> BUHLE QAMPI</h1>
       </div>
-  </div>
-  </div>
+      </div> 
 </template>
 <style scoped>
+.container video{
+  width:100%;
+  height:100%;
+}
 /* h6{
 position: absolute;
 width: 100px;

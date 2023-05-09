@@ -1,5 +1,5 @@
 <template>
-  <h1 class="d-flex justify-content-center mt-5 text-white">RESUME</h1>
+  <h1 class="d-flex justify-content-center mt-2 text-white">RESUME</h1>
   <section class="design-section"> 
   <div class="timeline">
     <div class="timeline-empty">
@@ -139,6 +139,6 @@
     margin-top: 25px;
   }
   .col{
-    padding:1px;
+    color:#219ebc;
   }
 }</style>
