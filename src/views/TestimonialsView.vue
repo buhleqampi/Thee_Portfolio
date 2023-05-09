@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>TESTIMONIALS</h1>
+        <h1 class="d-flex justify-content-center mt-5 text-white">TESTIMONIALS</h1>
     </div>
 </template>
 

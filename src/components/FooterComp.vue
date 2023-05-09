@@ -14,14 +14,11 @@
                 <a href="https://www.instagram.com/gingerqamps/"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
-        <div class="align-items text-white" id="footer"> 
-        &#169; Copyright 2023. All Rights Reserved. Made By Buhle Qampi.
-    </div>      
     </div>
 </template>
 <style scoped>
 .row {
-    background-color: #3C4144;
+    background-color: #2C3E50;
 }
 #footer {
     font-family:Arial, Helvetica, sans-serif;

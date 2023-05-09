@@ -1,6 +1,9 @@
 <template>
 <nav class="navbar navbar-expand-md"> 
 <ul>
+<li style="display:inline" class="logo">
+<img src="https://i.postimg.cc/HkZM7fBz/logo2.png" alt="logo"/>
+</li>
 <li style="display:inline" id="bar">
 <router-link to="/">Home</router-link> 
 </li>
@@ -38,7 +41,7 @@ nav ul li {
    #bar {
       font-family: Arial, Helvetica, sans-serif;
    }
-   hr {
-      border-top: 2px solid #3C4144;
+   img{
+      width:100px;
    }
 </style>

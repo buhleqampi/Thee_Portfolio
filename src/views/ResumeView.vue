@@ -50,6 +50,14 @@
         <div class="col"><i class="fa-brands fa-figma fa-6x"></i></div>
         <div class="col"><i class="fa-brands fa-wordpress fa-6x"></i></div>
         </div>
+        <div class="row">
+          <div class="col">
+            <a href="https://drive.google.com/file/d/1vkOYRUqURtxON22rO0lUSaPNJVHG3-hC/view?usp=sharing" target="_blank" ><button type="button" class="btn btn-secondary btn-lg">Download CV</button></a>
+          </div>
+          <div class="col">
+            <a href="https://drive.google.com/file/d/17OEbUJNDyfMeEOeo1KuIwAzgWNN8I3G-/view?usp=sharing" target="_blank" ><button type="button" class="btn btn-secondary btn-lg">Download Certificate</button></a>
+          </div>
+          </div>
       </div>
 </section>
 
@@ -131,6 +139,6 @@
     margin-top: 25px;
   }
   .col{
-    padding:3px;
+    padding:1px;
   }
 }</style>

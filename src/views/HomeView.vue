@@ -1,23 +1,18 @@
 <template>
   <div class="home">
-    <h6>FULL STACK WEB DEVELOPER || UI/UX DESIGNER</h6>
-    <h1> BUHLE QAMPI</h1>
-    <h6 class="description">I am an intern web developer at LC Studio </h6>
-    <p>I am a goal-driven, a team player and attentive to detail when it comes to design beautiful and professional websites.</p>
+    <div class="row">
+      <div class="col">
+        <video autoplay loop muted playsinline class="Video">
+        <source src="../assets/Video.mp4" type="video/mp4" />
+      </video>
+      </div>
+      <div class="col">
+        <h6>FULL STACK WEB DEVELOPER || UI/UX DESIGNER</h6>
+        <h1> BUHLE QAMPI</h1>
+      </div>
+  </div>
   </div>
 </template>
-
- <script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  // name: 'HomeView',
-  // components: {
-  //   HelloWorld
-  // }
-}
-</script>
 <style scoped>
 /* h6{
 position: absolute;
@@ -82,13 +77,11 @@ line-height: 124px;
 color: #000000;
 
 } */
-.home{
+/* .home{
 position: absolute;
 width: 375px;
 height: 202px;
 left: 559px;
 top: 276px;
-
-background: url("https://i.postimg.cc/YSc3kvrn/C11-Buhle-Qampi-3.jpg");
-}
+} */
 </style>

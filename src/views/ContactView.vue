@@ -1,8 +1,27 @@
 <template>
     <div>
-        <h6>BUHLE QAMPI</h6>
-        <h1>CONNECT WITH ME</h1>
+        <h6 class="text-white">BUHLE QAMPI</h6>
+        <h1 class="d-flex justify-content-center mt-5 text-white">CONNECT WITH ME</h1>
     </div>
+        <form action="https://formspree.io/f/mwkjydzb">
+    <div class="mb-3 ">
+        <label for="first" class="form-label">First name</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="last" class="form-label">Last Name</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Subject</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3">
+        <label for="text" class="form-label">Text</label>
+        <input type="textarea" class="form-control" id="exampleInputPassword1">
+    </div>
+    <button type="submit" class="btn btn-secondary">Submit</button>
+        </form>
 </template>
 
 <style scoped>
