@@ -2,98 +2,150 @@
     <div class="container px-5">
         <div class="row" style="height: 100%;">
             <h1 class="d-flex justify-content-center mt-2 text-white">TESTIMONIALS</h1>
-    <div>
-    <div class="container-fluid">
-    <div class="row gy-3 gap-5 mx-3 d-sm-flex justify-content-center">
-            <div class="card" v-for="item in testimonials" :key="item">
-                <img :src="item.image" class="mx-auto d-block" style="width: 15rem;"/>
-                <div class="card-body">
-                    <h5 class="card-title">{{ item.name }}</h5>
-                    <p class="card-text">{{ item.relationship }}</p>
-                    <p class="testimony">{{ item.testimony}}</p>
-                </div>
-            </div>
-        </div>
+            <figure class="lebo">
+  <figcaption>
+    <blockquote>Buhle is a sweet and loving soul. She is a hard worker and once she puts her mind to something she get it done.</blockquote>
+    <div class="arrow"></div>
+  </figcaption>
+  <img src="https://i.postimg.cc/QM2QdyjC/C11-Kelebogile-Nobomvu-4.jpg" alt="sq-sample10"/>
+  <div class="author">
+    <h5>Kelebogile Nobomvu<span>- Collegue</span></h5>
+  </div>
+ </figure>
+<figure class="lebo hover">
+  <figcaption>
+    <blockquote>Buhle is one that you can easily approach, she's always willing to assist anyone. She also has the ability to articulate herself well. She is a respectful individual and I enjoy engaging with her. I believe her perseverance and resilience makes her suitable for any position.</blockquote>
+    <div class="arrow"></div>
+  </figcaption>
+  <img src="https://i.postimg.cc/QtChthJk/DSC-3596.jpg" alt="sq-sample33"/>
+  <div class="author">
+    <h5>Chrisaner Matthys<span>- Collegue</span></h5>
+  </div>
+</figure>
+<figure class="lebo hover">
+  <figcaption>
+    <blockquote>Buhle is a very kind hearted person.She believes in being a positive role model to those who look up to her and carries herself very well. A key value she holds dear is Respect."</blockquote>
+    <div class="arrow"></div>
+  </figcaption>
+  <img src="https://i.postimg.cc/7Y8H2hvY/Candice.jpg" alt="sq-sample33"/>
+  <div class="author">
+    <h5>Candice Amon<span>- Facilitator</span></h5>
+  </div>
+</figure>
+<figure class="lebo hover">
+  <figcaption>
+    <blockquote>A great advocate for honesty, assertiveness and resilience. She has a bubbly personality and is always willing to land a helping hand hence her nickname 'Bubbles'. A real asset to any environment she is in.</blockquote>
+    <div class="arrow"></div>
+  </figcaption>
+  <img src="https://i.postimg.cc/dVz34Bpr/Sakhe.jpg" alt="sq-sample33"/>
+  <div class="author">
+    <h5>Sakhe Mzolisa<span>- Collegue</span></h5>
+  </div>
+</figure>
+<figure class="lebo hover">
+  <figcaption>
+    <blockquote>Buhle is a dedicated individual who puts her all in her work and a good team player, good at planning and meeting deadlines.</blockquote>
+  </figcaption>
+  <img src="https://i.postimg.cc/52Tffw2b/Siba1.jpg" alt="sq-sample33"/>
+  <div class="author">
+    <h5>Sibabalwe Mafestire<span>- Collegue</span></h5>
+  </div>
+</figure>
     </div>
-</div>
-</div>
-</div>
+    </div>
 
 
 </template>
-<script>
 
-export default {
-data () {
-    return {
-        testimonials:[
-            {
-            name: "Kelebogile Nobomvu",
-            image:"https://i.postimg.cc/QM2QdyjC/C11-Kelebogile-Nobomvu-4.jpg",
-            relationship:"Collegue",
-            testimony: "Buhle is a sweet and loving soul. She is a hard worker and once she puts her mind to something she get it done."
-            },
-            {
-            name: "Chrisaner Matthys",
-            image:"https://i.postimg.cc/QtChthJk/DSC-3596.jpg",
-            relationship:"Collegue",
-            testimony: "Buhle is one that you can easily approach, she's always willing to assist anyone. She also has the ability to articulate herself well. She is a respectful individual and I enjoy engaging with her. I believe her perseverance and resilience makes her suitable for any position."
-            },
-
-            {
-            name: "Candice Amon",
-            image:"https://i.postimg.cc/7Y8H2hvY/Candice.jpg",
-            relationship:"Facilitator",
-            testimony: "Buhle is a very kind hearted person.Always ready to extend a helping hand and also knows when to ask for help. She believes in being a positive role model to those who look up to her and carries herself very well. A key value she holds dear is Respect."
-            },
-            {
-            name: "Sibabalwe Mafestire",
-            image:'https://i.postimg.cc/XvzGSWrG/Siba.jpg',
-            relationship:"Collegue",
-            testimony: "Buhle is a dedicated individual who puts her all in her work and a good team player, good at planning and meeting deadlines"
-            },
-            {
-            name:"Sakhe Mzolisa",
-            image:"https://i.postimg.cc/dVz34Bpr/Sakhe.jpg",
-            relationship: "Collegue",
-            testimony:"Change is what drives Buhle. She is a go-getter who is committed to her work. She always looking forward in upskilling and developing her skills. A person who can mitigate between risks. A great advocate for honesty, assertiveness and resilience. She has a bubbly personality and is always willing to land a helping hand hence her nickname 'Bubbles'. A real asset to any environment she is in."
-            }
-        ]
-    }
-}
-} 
-</script>
 <style scoped>
-
-.card {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 20rem;
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.lebo {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  margin: 35px;
+  min-width: 400px;
+  max-width: 480px;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);  
+figure.lebo * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.card-body {
-    padding: 2px 16px;
+figure.lebo img {
+  float: right;
+  max-width: 40%;
+  vertical-align: middle;
+  border-radius: 0 8px 8px 0;
 }
-@media screen and (max-width: 720px) {
-    .card {
-        width: 20rem;
-    }
+figure.lebo figcaption {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 8px 0 0 8px;
 }
-
-@media screen and (max-width:630px) {
-    .card {
-        width: 20rem;
-    }
+figure.lebo blockquote {
+  position: relative;
+  padding: 25px 50px 25px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+  line-height: 1.6em;
+  font-style: italic;
 }
-
-
-@media screen and (max-width: 300px)
-{
-    .card {
-        width: 10rem;
-    }
+figure.lebo blockquote:before,
+figure.lebo blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.lebo blockquote:before {
+  top: 25px;
+  left: 20px;
+}
+figure.lebo blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 0px;
+}
+figure.lebo .arrow {
+  top: 30px;
+  left: 100%;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #ffffff;
+  margin: 0;
+  position: absolute;
+}
+figure.lebo .author {
+  position: absolute;
+  top: 100%;
+  width: 60%;
+  padding: 10px 15px;
+  color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+}
+figure.lebo .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.lebo .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  padding-left: 5px;
 }
 </style>
