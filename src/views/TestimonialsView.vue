@@ -14,7 +14,7 @@
  </figure>
 <figure class="lebo hover">
   <figcaption>
-    <blockquote>Buhle is one that you can easily approach, she's always willing to assist anyone.She is a respectful individual and I enjoy engaging with her. I believe her perseverance and resilience makes her suitable for any position.</blockquote>
+    <blockquote>Buhle is one that you can easily approach, she's always willing to assist anyone.She is a respectful individual and I enjoy engaging with her.</blockquote>
     <div class="arrow"></div>
   </figcaption>
   <img src="https://i.postimg.cc/brsRrRfP/C3.jpg" alt="sq-sample33"/>
@@ -24,7 +24,7 @@
 </figure>
 <figure class="lebo hover">
   <figcaption>
-    <blockquote>Buhle is a very kind hearted person.She believes in being a positive role model to those who look up to her and carries herself very well. A key value she holds dear is Respect."</blockquote>
+    <blockquote>Buhle is a very kind hearted person.She believes in being a positive role model to those who look up to her. A key value she holds dear is Respect."</blockquote>
     <div class="arrow"></div>
   </figcaption>
   <img src="https://i.postimg.cc/7Y8H2hvY/Candice.jpg" alt="sq-sample33"/>

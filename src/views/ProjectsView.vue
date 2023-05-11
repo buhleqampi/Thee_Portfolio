@@ -90,4 +90,7 @@ export default {
 button {
     padding:2px;
 }
+.container {
+    background-image:url(https://i.postimg.cc/wxQhXrTv/alt-background.jpg);
+}
 </style>
