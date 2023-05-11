@@ -1,25 +1,17 @@
 <template>
-      <div class="container">
-        <video autoplay loop muted playsinline class="Video">
-        <source src="../assets/Video.mp4" type="video/mp4" />
-      </video>
-      <div class="overlay">
-      <h6>FULL STACK WEB DEVELOPER || UI/UX DESIGNER</h6>
+  <div class="overlay">
+      <h6 class="justify-content center">FULL STACK WEB DEVELOPER</h6>
+      <h5>This is</h5>
         <h1> BUHLE QAMPI</h1>
       </div>
-      </div> 
-</template>
+ </template>
 <style scoped>
-.container video{
-  width:100%;
-  height:100%;
-}
+
 /* h6{
 position: absolute;
-width: 100px;
+width: 20px;
 height: 100vh;
-left: 206px;
-top: 276px;
+
 
 font-family: 'Old Standard TT';
 font-style: normal;

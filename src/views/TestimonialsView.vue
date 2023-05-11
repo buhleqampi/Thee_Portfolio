@@ -2,7 +2,7 @@
     <div class="container px-5">
         <div class="row" style="height: 100%;">
             <h1 class="d-flex justify-content-center mt-2 text-white">TESTIMONIALS</h1>
-            <figure class="lebo">
+    <figure class="lebo">
   <figcaption>
     <blockquote>Buhle is a sweet and loving soul. She is a hard worker and once she puts her mind to something she get it done.</blockquote>
     <div class="arrow"></div>
@@ -14,10 +14,10 @@
  </figure>
 <figure class="lebo hover">
   <figcaption>
-    <blockquote>Buhle is one that you can easily approach, she's always willing to assist anyone. She also has the ability to articulate herself well. She is a respectful individual and I enjoy engaging with her. I believe her perseverance and resilience makes her suitable for any position.</blockquote>
+    <blockquote>Buhle is one that you can easily approach, she's always willing to assist anyone.She is a respectful individual and I enjoy engaging with her. I believe her perseverance and resilience makes her suitable for any position.</blockquote>
     <div class="arrow"></div>
   </figcaption>
-  <img src="https://i.postimg.cc/QtChthJk/DSC-3596.jpg" alt="sq-sample33"/>
+  <img src="https://i.postimg.cc/brsRrRfP/C3.jpg" alt="sq-sample33"/>
   <div class="author">
     <h5>Chrisaner Matthys<span>- Collegue</span></h5>
   </div>
@@ -34,16 +34,6 @@
 </figure>
 <figure class="lebo hover">
   <figcaption>
-    <blockquote>A great advocate for honesty, assertiveness and resilience. She has a bubbly personality and is always willing to land a helping hand hence her nickname 'Bubbles'. A real asset to any environment she is in.</blockquote>
-    <div class="arrow"></div>
-  </figcaption>
-  <img src="https://i.postimg.cc/dVz34Bpr/Sakhe.jpg" alt="sq-sample33"/>
-  <div class="author">
-    <h5>Sakhe Mzolisa<span>- Collegue</span></h5>
-  </div>
-</figure>
-<figure class="lebo hover">
-  <figcaption>
     <blockquote>Buhle is a dedicated individual who puts her all in her work and a good team player, good at planning and meeting deadlines.</blockquote>
   </figcaption>
   <img src="https://i.postimg.cc/52Tffw2b/Siba1.jpg" alt="sq-sample33"/>
@@ -53,8 +43,6 @@
 </figure>
     </div>
     </div>
-
-
 </template>
 
 <style scoped>
@@ -63,7 +51,7 @@
 figure.lebo {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
-  margin: 35px;
+  margin: 40px;
   min-width: 400px;
   max-width: 480px;
   width: 100%;
@@ -77,9 +65,9 @@ figure.lebo * {
 }
 figure.lebo img {
   float: right;
-  max-width: 40%;
+  max-width: 30%;
   vertical-align: middle;
-  border-radius: 0 8px 8px 0;
+  border-radius:50% 50% 50% 50%;
 }
 figure.lebo figcaption {
   top: 0;

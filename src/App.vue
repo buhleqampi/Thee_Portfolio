@@ -19,10 +19,11 @@ import FooterComp from '@/components/FooterComp.vue'
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+ 
 }
 
 .content {
   background-color: #1f1f1f;
-  min-height:100%;
+  min-width:100vh;
 }
 </style>

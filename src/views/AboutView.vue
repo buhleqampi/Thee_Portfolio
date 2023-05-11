@@ -12,24 +12,16 @@
         I am an intern developer in the field of full-stack.I am a winner and know that with programming you do not always win, bugs and errors always try to complicate your code, 
         but nothing is of greater satisfaction when you debug and fix your code, no matter how long after how you struggled.I am a goal-driven, a team player and attentive to detail when it comes to design beautiful and professional websites.</p></div>
   </div>
+  <div class="row">
+  <div class="col">
+    <a href="/resume"><button type="button" class="btn btn-secondary btn-lg">See More</button></a>
+    </div>
+    </div>
   </div>
   </div>
 </template>
 
 <style scoped>
-/* p{
- position: absolute;
- width: 3721px;
- height: 2942px;
- left: 3085px;
- top: 780px;
- font-family: 'Old Standard TT';
- font-style: normal;
- font-weight: 400;
- font-size: 170px;
- line-height: 210px;
- color: #000000;
- }*/
 img{
   width:500px;
   margin-bottom:5px;

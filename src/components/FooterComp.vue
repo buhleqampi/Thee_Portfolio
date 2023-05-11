@@ -1,5 +1,7 @@
 <template>
-    <div class="footer footer-expand-lg row" id="only">
+    <div>
+    </div>
+    <!-- <div class="footer footer-expand-lg row" id="only">
         <ul>
             <li>
                 <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -14,22 +16,25 @@
                 <a href="https://www.instagram.com/gingerqamps/"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
-    </div>
+    </div> -->
 </template>
 <style scoped>
 .row {
-    background-color: #2C3E50;
+    background-color: gray;
 }
 #footer {
     font-family:Arial, Helvetica, sans-serif;
 }
 ul li a {
     color:black;
-    width: 100px;
     margin-top:10px;
 }
 ul li {
     display: inline;
     padding:10px;
+}
+a{
+ 
+    width: 200px;
 }
 </style>
