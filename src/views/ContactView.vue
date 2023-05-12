@@ -7,6 +7,22 @@
             <p><i class="fa-solid fa-phone-volume"></i>0636350263</p>
             <p><i class="fa-thin fa-envelope"></i>buhle3857@gmail.com</p>
         </div>
+        <div class="row">
+            <ul class="icons">
+            <li>
+                <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/buhle-qampi-293140158/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/buhle.qampi/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/gingerqamps/"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>   
+        </div>
      </div>
         <div class="col">
         <h2 class="d-flex justify-content-center mt-2 text-white">GET IN TOUCH!</h2>
@@ -34,5 +50,9 @@
 <style scoped>
 form {
     margin:5px;
+}
+ul li a {
+    color:gray;
+    width:200px;
 }
 </style>

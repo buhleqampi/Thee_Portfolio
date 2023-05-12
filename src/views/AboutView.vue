@@ -26,8 +26,7 @@ img{
   width:500px;
   margin-bottom:5px;
 }
-.lead text-white {
+.lead {
   margin-bottom:20px;
-  margin-top: 60px;
-}
+ }
 </style>
