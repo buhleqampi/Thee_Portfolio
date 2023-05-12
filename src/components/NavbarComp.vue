@@ -22,8 +22,7 @@
 <li style="display:inline">
 <router-link to="/contact">Contact</router-link>  
 </li>
-</ul>
-<hr>   
+</ul> 
 </nav>
 </template>
 
@@ -36,12 +35,15 @@ nav ul li {
    }
    ul li a{
       text-decoration: none;
-      color:whitesmoke;
+      color:gray;
    }
    #bar {
       font-family: Arial, Helvetica, sans-serif;
    }
    img{
       width:100px;
+   }
+   #bar {
+      flex-direction: column;
    }
 </style>

@@ -1,25 +1,73 @@
 <template>
-    <div class="container px-5">
-    <div class="row" style="height: 100%;">
-        
-        <h1 class="d-flex justify-content-center mt-2 text-white">PROJECTS</h1>
-    <div>
-    <div class="container-fluid">
-        <div class="row gap-5 mx-3 d-sm-flex justify-content-center">
-    <div class="card" v-for="item in projects" :key="item">
-            <img :src="item.image" class="mx-auto d-block" style="width: 15rem;"/>
-            <div class="card-body">
-                <h5 class="card-title">{{ item.name }}</h5>
-                <p class="card-text">{{ item.description }}</p>
-                <h5><a :href="item.GitHub" target="_blank">Github</a></h5>
-                <h5><a :href="item.Netlify" target="_blank">Netlify</a></h5>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
+    <body>
+	<section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://i.postimg.cc/PxFc5fC1/Portfolio.png" alt="project">
+					</div>
+					<div class="contentBx">
+						<h3>Lion<br><span>Happy Birthday</span></h3>
+					</div>
+				</div>
+				<ul class="sci">
+					<li>
+						<a href="">happy</a>
+					</li>
+					<li>
+						<a href="">birth</a>
+					</li>
+					<li>
+						<a href="">day</a>
+					</li>
+				</ul>
+			</div>
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="" alt="pic">
+					</div>
+					<div class="contentBx">
+						<h3>Frog<br><span>Happy Birthday</span></h3>
+					</div>
+				</div>
+				<ul class="sci">
+					<li>
+						<a href="">happy</a>
+					</li>
+					<li>
+						<a href="">birth</a>
+					</li>
+					<li>
+						<a href="">day</a>
+					</li>
+				</ul>
+			</div>
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="" alt="pic">
+					</div>
+					<div class="contentBx">
+						<h3>Giraffe<br><span>Happy Birthday</span></h3>
+					</div>
+				</div>
+				<ul class="sci">
+					<li>
+						<a href="">happy</a>
+					</li>
+					<li>
+						<a href="">birth</a>
+					</li>
+					<li>
+						<a href="">day</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</body>
 </template>
 <script>
 export default {
@@ -75,22 +123,133 @@ export default {
 }
 </script>
 <style scoped>
-.card {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 20rem;
+* {
+	margin: 0;
+	padding: 0;
 }
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);  
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #161616;
+	min-height: 100vh;
 }
-.card-body {
-    padding: 2px 16px;
+
+section::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#DA22FF, #9733EE);
+	clip-path: circle(30% at right 70%);
 }
-button {
-    padding:2px;
+
+section::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#E55D87, #5FC3E4);
+	clip-path: circle(20% at 10% 10%);
 }
+
 .container {
-    background-image:url(https://i.postimg.cc/wxQhXrTv/alt-background.jpg);
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 40px 0;
+}
+
+.container .card {
+	position: relative;
+	width: 300px;
+	height: 400px;
+	background: rgba(255, 255, 255, 0.05);
+	margin: 20px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+}
+
+.container .card .content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+.container .card:hover .content {
+	transform: translateY(-20px);
+}
+
+.container .card .content .imgBx {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.container .card .content .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: center;
+}
+
+.container .card .content .contentBx h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+}
+
+.container .card .content .contentBx h3 span {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: initial;
+}
+
+.container .card .sci {
+	position: absolute;
+	bottom: 50px;
+	display: flex;
+}
+
+.container .card .sci li {
+	list-style: none;
+	margin: 0 10px;
+	transform: translateY(40px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.container .card:hover .sci li {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.container .card .sci li a {
+	color: #fff;
+	font-size: 20px;
 }
 </style>

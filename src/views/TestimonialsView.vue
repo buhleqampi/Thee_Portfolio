@@ -65,6 +65,8 @@ figure.lebo * {
 }
 figure.lebo img {
   float: right;
+  width:100%;
+  height:100%;
   max-width: 30%;
   vertical-align: middle;
   border-radius:50% 50% 50% 50%;

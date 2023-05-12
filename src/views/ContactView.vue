@@ -1,60 +1,38 @@
 <template>
-    <div>
-        <h6 class="text-white">BUHLE QAMPI</h6>
-        <h1 class="d-flex justify-content-center mt-2 text-white">CONNECT WITH ME</h1>
-    </div>
-        <form action="https://formspree.io/f/mwkjydzb">
-    <div class="mb-3 ">
-        <label for="first" class="form-label">First name</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    </div>
-    <div class="mb-3">
-        <label for="last" class="form-label">Last Name</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    </div>
-    <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Subject</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3">
-        <label for="text" class="form-label">Text</label>
-        <input type="textarea" class="form-control" id="exampleInputPassword1">
-    </div>
-    <button type="submit" class="btn btn-secondary">Submit</button>
+        <div class="row">
+        <div class="col">
+        <h2 class="d-flex justify-content-center mt-2 text-white">CONNECT WITH ME</h2>
+        <div class="row">
+            <p><i class="fa-light fa-location-dot"></i>Nyanga, Cape Town</p>
+            <p><i class="fa-solid fa-phone-volume"></i>0636350263</p>
+            <p><i class="fa-thin fa-envelope"></i>buhle3857@gmail.com</p>
+        </div>
+     </div>
+        <div class="col">
+        <h2 class="d-flex justify-content-center mt-2 text-white">GET IN TOUCH!</h2>
+        <form action ="https://formspree.io/f/mwkjydzb" method="POST">
+        <div class="mb-3 ">
+            <label for="first" class="form-label">First name</label>
+            <input type="first" name="first" class="form-control" id="example" required>
+        </div>
+        <div class="mb-3">
+            <label for="last" class="form-label">Last Name</label>
+            <input type="last" name="last" class="form-control" id="example"  required>
+        </div>
+        <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="subject" name="subject" class="form-control" id="example" required>
+        </div>
+        <label for="message" class="form-label">Message</label>
+        <textarea type="message" name="message" class="form-control" id="exampleInputMessage" placeholder="Write something" required></textarea>
+        <button type="submit" class="btn btn-secondary pb-2">Submit</button>
         </form>
-</template>
+        </div>
+        </div>
+    </template>
 
 <style scoped>
-/* h6{
-position: absolute;
-width: 1200px;
-height: 420px;
-left: 3268px;
-top: -120px;
-
-font-family: 'Old Standard TT';
-font-style: normal;
-font-weight: 400;
-font-size: 100px;
-line-height: 124px;
-
-color: #000000;
-
+form {
+    margin:5px;
 }
-h1{
-position: absolute;
-width: 3402px;
-height: 424px;
-left: 2317px;
-top: 416px;
-
-font-family: 'Old Standard TT';
-font-style: normal;
-font-weight: 400;
-font-size: 300px;
-line-height: 371px;
-
-color: #000000;
-
-} */
 </style>

@@ -25,5 +25,6 @@ import FooterComp from '@/components/FooterComp.vue'
 .content {
   background-color: #1f1f1f;
   min-width:100vh;
+  
 }
 </style>
