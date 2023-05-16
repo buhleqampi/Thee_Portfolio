@@ -1,71 +1,26 @@
 <template>
     <body>
 	<section>
-		<div class="container">
-			<div class="card">
-				<div class="content">
-					<div class="imgBx">
-						<img src="https://i.postimg.cc/PxFc5fC1/Portfolio.png" alt="project">
-					</div>
-					<div class="contentBx">
-						<h3>Lion<br><span>Happy Birthday</span></h3>
-					</div>
-				</div>
-				<ul class="sci">
-					<li>
-						<a href="">happy</a>
-					</li>
-					<li>
-						<a href="">birth</a>
-					</li>
-					<li>
-						<a href="">day</a>
-					</li>
-				</ul>
-			</div>
-			<div class="card">
-				<div class="content">
-					<div class="imgBx">
-						<img src="" alt="pic">
-					</div>
-					<div class="contentBx">
-						<h3>Frog<br><span>Happy Birthday</span></h3>
-					</div>
-				</div>
-				<ul class="sci">
-					<li>
-						<a href="">happy</a>
-					</li>
-					<li>
-						<a href="">birth</a>
-					</li>
-					<li>
-						<a href="">day</a>
-					</li>
-				</ul>
-			</div>
-			<div class="card">
-				<div class="content">
-					<div class="imgBx">
-						<img src="" alt="pic">
-					</div>
-					<div class="contentBx">
-						<h3>Giraffe<br><span>Happy Birthday</span></h3>
-					</div>
-				</div>
-				<ul class="sci">
-					<li>
-						<a href="">happy</a>
-					</li>
-					<li>
-						<a href="">birth</a>
-					</li>
-					<li>
-						<a href="">day</a>
-					</li>
-				</ul>
-			</div>
-		</div>
+		<div class="container px-5">
+    <div class="row" style="height: 100%;">
+    <h1 class="d-flex justify-content-center mt-2 text-white">PROJECTS</h1>
+    <div>
+    <div class="container-fluid">
+        <div class="row gap-5 mx-3 d-sm-flex justify-content-center">
+    <div class="card" v-for="item in projects" :key="item">
+            <img :src="item.image" class="mx-auto d-block" style="width: 15rem;"/>
+            <div class="card-body">
+                <h5 class="card-title">{{ item.name }}</h5>
+                <p class="card-text">{{ item.description }}</p>
+                <h5><a :href="item.GitHub" target="_blank">Github</a></h5>
+                <h5><a :href="item.Netlify" target="_blank">Netlify</a></h5>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
 	</section>
 </body>
 </template>
@@ -74,48 +29,47 @@ export default {
     data () {
         return {
             projects: [
-                {
-                name: "HTML/CSS Portfolio",
-                image:"https://i.postimg.cc/PxFc5fC1/Portfolio.png",
-                description:"This was my first project in the form of a personal portfolio. I used HTML and CSS.",
-                GitHub:"https://github.com/buhleqampi/Portfolio.git",
-                Netlify:"https://buhle-qampi-portfolio.netlify.app"
-                },
-                {name: "E-commerce Website",
-                image:"https://i.postimg.cc/NFn5DX5L/E-Commerce.png",
-                description:"E-commerce I used HTML and CSS.",
-                GitHub:"https://github.com/buhleqampi/Ecommerce.git",
-                Netlify:"https://buhleqampi-ecommerce-site.netlify.app/"
-                },
-                {
+			{
+                name: "WordPress E-commerce website",
+                image:"https://i.postimg.cc/3JdfYTjr/Screenshot-2023-05-16-115704.png",
+                description:"Got  to work in a team of 4 collegues and create an e-commerce website using WordPress.",
+                GitHub:"",
+                Live:"https://dev-alphapeakexplore.pantheonsite.io/" 
+            },
+			{
+                name: "Capstone Project",
+                image:"https://i.postimg.cc/z3mMb25P/Screenshot-2023-05-16-113928.png",
+                description:"A capstone project that tests my full stack development of skills I have learnt",
+                GitHub:"https://github.com/buhleqampi/second_handy.git",
+                Live:"https://capstoneproject-7d162.web.app/" 
+            },
+			{	name: "Node Full Stack Project",
+                image:"https://i.postimg.cc/cL4nVQVV/Screenshot-2023-05-16-114358.png",
+                description:"I worked in a pair did a full stack project using Node",
+                GitHub:"https://github.com/zoefaithdaniels/Node-FullstackProject.git",
+                Live:"http://vue-eomp.firebaseapp.com/"
+            },
+			{
                 name: "JS Calculator",
-                image:"https://i.postimg.cc/3NtwRvgn/Calculator.png",
+                image:"https://i.postimg.cc/Hspt1pkK/Screenshot-2023-05-16-114142.png",
                 description:"E-commerce I used HTML/CSS and JavaScript.",
                 GitHub:"https://github.com/buhleqampi/Javascript-calculator.git",
                 Netlify:"https://buhleqampi-js-calculator.netlify.app"
-                },
-                {
+            },
+            {
                 name: "Point of Sale",
                 image:"https://i.postimg.cc/HxtNbscJ/Point-of-sale.png",
                 description:"An end of module project using JavaScript",
                 GitHub:"https://github.com/buhleqampi/Javascript-project-2.git",
                 Netlify:"https://js-endof-module-project-2.netlify.app" 
-                },
-                {
-                name: "Vue Basics Exercise",
-                image:"https://i.postimg.cc/85K5kvdw/Vue.png",
-                description:"Got to work around with Vue basics and apply the framework to build an app.",
-                GitHub:"https://github.com/buhleqampi/Vue.js-first-project.git",
-                Netlify:"https://capable-crumble-edce9e.netlify.app" 
-                },
-                {
-                name: "My first coding project",
-                image:"https://i.postimg.cc/76ht5ghm/First-portfolio.png",
-                description:"Created a portfolio for my first coding project using HTML/CSS",
-                GitHub:"https://github.com/buhleqampi/My-Portfolio.git",
-                Netlify:"https://buhleqampi-1stportfolio.netlify.app/" 
-                },
-
+            },
+			{
+                name: "HTML/CSS Portfolio",
+                image:"https://i.postimg.cc/PxFc5fC1/Portfolio.png",
+                description:"This was my first project in the form of a personal portfolio. I used HTML and CSS.",
+                GitHub:"https://github.com/buhleqampi/Portfolio.git",
+                Live:"https://buhle-qampi-portfolio.netlify.app"
+            }
             ]
         }
     }
@@ -123,20 +77,15 @@ export default {
 }
 </script>
 <style scoped>
-* {
-	margin: 0;
-	padding: 0;
-}
-
 body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	background: #161616;
+	background:  #1f1f1f;;
 	min-height: 100vh;
 }
-
+/* 
 section::before {
 	content: '';
 	position: absolute;
@@ -178,9 +127,17 @@ section::before {
 	align-items: center;
 	flex-direction: column;
 	transition: 0.5s;
+} */
+.card {
+    background-color: gray;
+    background: rgba(82, 78, 78, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.9px);
+    -webkit-backdrop-filter: blur(9.9px);
+    border: 1px solid rgba(82, 78, 78, 0.26);
 }
-
-.container .card:hover .content {
+/* .container .card:hover .content {
 	transform: translateY(-20px);
 }
 
@@ -215,9 +172,9 @@ section::before {
 	font-size: 12px;
 	font-weight: 300;
 	text-transform: initial;
-}
+} */
 
-.container .card .sci {
+/* .container .card .sci {
 	position: absolute;
 	bottom: 50px;
 	display: flex;
@@ -239,5 +196,5 @@ section::before {
 .container .card .sci li a {
 	color: #fff;
 	font-size: 20px;
-}
+} */
 </style>
