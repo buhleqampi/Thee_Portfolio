@@ -52,7 +52,7 @@
         </div>
         <div class="row">
           <div class="col">
-            <a href="https://drive.google.com/file/d/1vkOYRUqURtxON22rO0lUSaPNJVHG3-hC/view?usp=sharing" target="_blank" ><button type="button" class="btn btn-secondary btn-lg">Download CV</button></a>
+            <a href="https://drive.google.com/file/d/1LwfZj0rjS4WY99Scb3zm0U6NOQH-_Cc3/view?usp=sharing" target="_blank" ><button type="button" class="btn btn-secondary btn-lg">Download CV</button></a>
           </div>
           <div class="col">
             <a href="https://drive.google.com/file/d/17OEbUJNDyfMeEOeo1KuIwAzgWNN8I3G-/view?usp=sharing" target="_blank" ><button type="button" class="btn btn-secondary btn-lg">Download Certificate</button></a>

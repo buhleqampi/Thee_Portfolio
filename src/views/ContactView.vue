@@ -41,7 +41,7 @@
         </div>
         <label for="message" class="form-label">Message</label>
         <textarea type="message" name="message" class="form-control" id="exampleInputMessage" placeholder="Write something" required></textarea>
-        <button type="submit" class="btn btn-secondary pb-2">Submit</button>
+        <button type="submit" class="btn btn-secondary">Submit</button>
         </form>
         </div>
         </div>

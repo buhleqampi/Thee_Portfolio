@@ -12,8 +12,8 @@
             <div class="card-body">
                 <h5 class="card-title">{{ item.name }}</h5>
                 <p class="card-text">{{ item.description }}</p>
-                <h5><a :href="item.GitHub" target="_blank">Github</a></h5>
-                <h5><a :href="item.Netlify" target="_blank">Netlify</a></h5>
+                <h5 class="link"><a :href="item.GitHub" target="_blank">Github</a></h5>
+                <h5 class="link"><a :href="item.Live" target="_blank">Live</a></h5>
             </div>
         </div>
     </div>
@@ -54,14 +54,14 @@ export default {
                 image:"https://i.postimg.cc/Hspt1pkK/Screenshot-2023-05-16-114142.png",
                 description:"E-commerce I used HTML/CSS and JavaScript.",
                 GitHub:"https://github.com/buhleqampi/Javascript-calculator.git",
-                Netlify:"https://buhleqampi-js-calculator.netlify.app"
+                Live:"https://buhleqampi-js-calculator.netlify.app"
             },
             {
                 name: "Point of Sale",
                 image:"https://i.postimg.cc/HxtNbscJ/Point-of-sale.png",
                 description:"An end of module project using JavaScript",
                 GitHub:"https://github.com/buhleqampi/Javascript-project-2.git",
-                Netlify:"https://js-endof-module-project-2.netlify.app" 
+                Live:"https://js-endof-module-project-2.netlify.app" 
             },
 			{
                 name: "HTML/CSS Portfolio",
@@ -85,17 +85,7 @@ body {
 	background:  #1f1f1f;;
 	min-height: 100vh;
 }
-/* 
-section::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(#DA22FF, #9733EE);
-	clip-path: circle(30% at right 70%);
-}
+/*
 .container {
 	position: relative;
 	z-index: 1;
@@ -105,37 +95,23 @@ section::before {
 	flex-wrap: wrap;
 	margin: 40px 0;
 }
-
-.container .card {
-	position: relative;
+*/
+.card{
 	width: 300px;
 	height: 400px;
-	background: rgba(255, 255, 255, 0.05);
 	margin: 20px;
 	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
 	border-radius: 15px;
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	backdrop-filter: blur(10px);
-}
-
-.container .card .content {
 	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	transition: 0.5s;
-} */
-.card {
-    background-color: gray;
-    background: rgba(82, 78, 78, 0.5);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(9.9px);
-    -webkit-backdrop-filter: blur(9.9px);
-    border: 1px solid rgba(82, 78, 78, 0.26);
+	background-color: gray;
 }
 /* .container .card:hover .content {
 	transform: translateY(-20px);
@@ -174,7 +150,7 @@ section::before {
 	text-transform: initial;
 } */
 
-/* .container .card .sci {
+/* .container .card  {
 	position: absolute;
 	bottom: 50px;
 	display: flex;
@@ -192,9 +168,9 @@ section::before {
 	transform: translateY(0px);
 	opacity: 1;
 }
-
-.container .card .sci li a {
+*/
+.link {
 	color: #fff;
 	font-size: 20px;
-} */
+} 
 </style>
