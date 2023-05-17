@@ -70,6 +70,7 @@ figure.lebo img {
   max-width: 30%;
   vertical-align: middle;
   border-radius:50% 50% 50% 50%;
+  border:5px solid  #8A2387;
 }
 figure.lebo figcaption {
   top: 0;

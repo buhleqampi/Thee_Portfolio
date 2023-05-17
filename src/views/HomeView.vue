@@ -2,7 +2,7 @@
   <div class="introduction justify-content center">
     <div class="row">
       <div class="col">
-      <h2 class=" mt-5"> BUHLE QAMPI </h2>
+      <h2 class=" mt-5"> Buhle Qampi </h2>
       <h5>Intern Web Developer</h5>
     </div>
     <div class="col mt-5">
@@ -18,7 +18,7 @@
  </template>
 <style scoped>
 .introduction {
-  color: #219ebc;
+  color:#E94057;
   font-family: 'TT Ramillas';
 }
 h2 {

@@ -139,6 +139,6 @@
     margin-top: 25px;
   }
   .col{
-    color:#219ebc;
+    color:#F27121;
   }
 }</style>
