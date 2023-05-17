@@ -97,6 +97,7 @@ body {
 	flex-direction: column;
 	transition: 0.5s;
 	background-color: gray;
+	font-family: Georgia, 'Times New Roman', Times, serif
 }
 .card:hover .link {
 	transform: translateY(-20px);
@@ -162,6 +163,6 @@ img {
 	margin-bottom:5px;
 } 
 h1{
-	font-family: "TT Ramillas";
+	font-family: Arial, Helvetica, sans-serif;
 }
 </style>

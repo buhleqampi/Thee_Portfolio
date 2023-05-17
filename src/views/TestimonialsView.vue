@@ -91,7 +91,7 @@ figure.lebo blockquote {
   text-align: left;
   margin: 0;
   line-height: 1.6em;
-  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 figure.lebo blockquote:before,
 figure.lebo blockquote:after {
@@ -142,6 +142,6 @@ figure.lebo .author h5 span {
   padding-left: 5px;
 }
 h1{
-  font-family: "TT Ramillas";
+  font-family: Arial, Helvetica, sans-serif;
 }
 </style>

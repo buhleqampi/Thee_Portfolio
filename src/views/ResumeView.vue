@@ -97,6 +97,7 @@
 }
 .timeline-component {
   margin: 0px 20px 20px 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 @media screen and (min-width: 768px) {
@@ -133,6 +134,6 @@
   }
 }
 h1 {
-  font-family: 'TT Ramillas';
+  font-family: Arial, Helvetica, sans-serif;
 }
 </style>

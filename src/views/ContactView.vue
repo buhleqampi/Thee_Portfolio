@@ -56,6 +56,6 @@ ul li a {
     width:200px;
 }
 h2{
-    font-family: "TT Ramillas";
+    font-family: Arial, Helvetica, sans-serif;
 }
 </style>

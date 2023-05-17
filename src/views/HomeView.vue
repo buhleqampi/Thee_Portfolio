@@ -2,7 +2,8 @@
   <div class="introduction justify-content center">
     <div class="row">
       <div class="col">
-      <h2 class=" mt-5">Hi, I am Buhle Qampi. I am an intern web developer & aspiring AWS Cloud Practioner </h2>
+      <h2 class=" mt-5">Hi, I am Buhle Qampi.
+      I am an intern web developer & aspiring AWS Cloud Practioner </h2>
     </div>
     <div class="col mt-5">
       <img src="https://i.postimg.cc/qBFgjvmB/landing-removebg-preview.png" alt="landing"/> 
@@ -13,7 +14,7 @@
 <style scoped>
 .introduction {
   color:#F27121;
-  font-family: 'TT Ramillas';
+  font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
   font-size: 70px;

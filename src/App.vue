@@ -11,7 +11,8 @@ import FooterComp from '@/components/FooterComp.vue'
     components: {
       NavbarComp, FooterComp
     }
-  }
+  } 
+  
 </script>
 <style>
 #app {

@@ -12,11 +12,6 @@
         I am an intern developer in the field of full-stack.I am a winner and know that with programming you do not always win, bugs and errors always try to complicate your code, 
         but nothing is of greater satisfaction when you debug and fix your code, no matter how long after how you struggled.I am a goal-driven, a team player and attentive to detail when it comes to design beautiful and professional websites.</p></div>
   </div>
-  <div class="row">
-  <div class="col">
-    <a href="/resume"><button type="button" class="btn btn-secondary btn-lg">See More</button></a>
-    </div>
-    </div>
   </div>
   </div>
 </template>
@@ -28,8 +23,9 @@ img{
 }
 .lead {
   margin-bottom:20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
  }
  h1{
-  font-family: 'TT Ramillas' ;
+  font-family: Arial, Helvetica, sans-serif;
  }
 </style>
