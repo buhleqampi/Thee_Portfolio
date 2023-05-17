@@ -60,7 +60,6 @@
           </div>
       </div>
 </section>
-
 </template>
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
@@ -74,13 +73,6 @@
   padding: 100px 0;
   /* font-family: Old Standard TT; */
 }
-
-.design {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .timeline {
   width: 50%;
   height: auto;
@@ -89,10 +81,9 @@
   display: flex;
   flex-direction: column;
 }
-
 .timeline-content {
   padding: 20px;
-  background: #1f1f1f;
+  background: #454545;
   -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
           box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
   border-radius: 5px;
@@ -104,7 +95,6 @@
   margin-bottom: 20px;
   /* border-radius: 6px; */
 }
-
 .timeline-component {
   margin: 0px 20px 20px 20px;
 }
@@ -141,4 +131,5 @@
   .col{
     color:#F27121;
   }
-}</style>
+}
+</style>

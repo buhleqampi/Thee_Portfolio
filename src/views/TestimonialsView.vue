@@ -58,6 +58,8 @@ figure.lebo {
   color: #333;
   text-align: left;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  background-color:#8A2387;
+  border-radius: 8px 8px 8px 8px;
 }
 figure.lebo * {
   -webkit-box-sizing: border-box;
@@ -70,7 +72,7 @@ figure.lebo img {
   max-width: 30%;
   vertical-align: middle;
   border-radius:50% 50% 50% 50%;
-  border:5px solid  #8A2387;
+ 
 }
 figure.lebo figcaption {
   top: 0;

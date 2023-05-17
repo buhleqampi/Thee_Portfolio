@@ -1,23 +1,19 @@
 <template>
     <body>
 	<section>
-		<div class="container px-5">
-    <div class="row" style="height: 100%;">
     <h1 class="d-flex justify-content-center mt-2 text-white">PROJECTS</h1>
     <div>
     <div class="container-fluid">
         <div class="row gap-5 mx-3 d-sm-flex justify-content-center">
     <div class="card" v-for="item in projects" :key="item">
+			<h5 class="card-title mt-5">{{ item.name }}</h5>
             <img :src="item.image" class="mx-auto d-block" style="width: 15rem;"/>
-            <div class="card-body">
-                <h5 class="card-title">{{ item.name }}</h5>
+            <div class="card-body text-black">
                 <p class="card-text">{{ item.description }}</p>
                 <h5 class="link"><a :href="item.GitHub" target="_blank">Github</a></h5>
                 <h5 class="link"><a :href="item.Live" target="_blank">Live</a></h5>
             </div>
         </div>
-    </div>
-    </div>
     </div>
     </div>
     </div>
@@ -30,7 +26,7 @@ export default {
         return {
             projects: [
 			{
-                name: "WordPress E-commerce website",
+                name: "WordPress E-commerce",
                 image:"https://i.postimg.cc/3JdfYTjr/Screenshot-2023-05-16-115704.png",
                 description:"Got  to work in a team of 4 collegues and create an e-commerce website using WordPress.",
                 GitHub:"",
@@ -85,17 +81,6 @@ body {
 	background:  #1f1f1f;;
 	min-height: 100vh;
 }
-/*
-.container {
-	position: relative;
-	z-index: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	margin: 40px 0;
-}
-*/
 .card{
 	width: 300px;
 	height: 400px;
@@ -113,10 +98,10 @@ body {
 	transition: 0.5s;
 	background-color: gray;
 }
-/* .container .card:hover .content {
+.card:hover .link {
 	transform: translateY(-20px);
 }
-
+/*
 .container .card .content .imgBx {
 	position: relative;
 	width: 150px;
@@ -164,13 +149,16 @@ body {
 	opacity: 0;
 }
 
-.container .card:hover .sci li {
+. .card:hover .sci li {
 	transform: translateY(0px);
 	opacity: 1;
 }
 */
 .link {
+	display:inline;
 	color: #fff;
 	font-size: 20px;
+	padding:5px;
+	margin-bottom:5px;
 } 
 </style>
