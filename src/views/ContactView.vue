@@ -1,7 +1,7 @@
 <template>
         <div class="row">
         <div class="col">
-        <h2 class="d-flex justify-content-center mt-2 text-white">CONNECT WITH ME</h2>
+        <h2 class="d-flex justify-content-center mt-2 text-white">Connect with me</h2>
         <div class="row">
             <p><i class="fa-light fa-location-dot"></i>Nyanga, Cape Town</p>
             <p><i class="fa-solid fa-phone-volume"></i>0636350263</p>
@@ -25,7 +25,7 @@
         </div>
      </div>
         <div class="col">
-        <h2 class="d-flex justify-content-center mt-2 text-white">GET IN TOUCH!</h2>
+        <h2 class="d-flex justify-content-center mt-2 text-white">Get In Touch!</h2>
         <form action ="https://formspree.io/f/mwkjydzb" method="POST">
         <div class="mb-3 ">
             <label for="first" class="form-label">First name</label>
@@ -54,5 +54,8 @@ form {
 ul li a {
     color:gray;
     width:200px;
+}
+h2{
+    font-family: "TT Ramillas";
 }
 </style>

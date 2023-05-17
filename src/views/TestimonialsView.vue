@@ -1,7 +1,7 @@
 <template>
     <div class="container px-5">
         <div class="row" style="height: 100%;">
-            <h1 class="d-flex justify-content-center mt-2 text-white">TESTIMONIALS</h1>
+            <h1 class="d-flex justify-content-center mt-2 text-white">Testimonials</h1>
     <figure class="lebo">
   <figcaption>
     <blockquote>Buhle is a sweet and loving soul. She is a hard worker and once she puts her mind to something she get it done.</blockquote>
@@ -58,7 +58,7 @@ figure.lebo {
   color: #333;
   text-align: left;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  background-color:#8A2387;
+  background-color:gray;
   border-radius: 8px 8px 8px 8px;
 }
 figure.lebo * {
@@ -140,5 +140,8 @@ figure.lebo .author h5 span {
   font-weight: 400;
   text-transform: none;
   padding-left: 5px;
+}
+h1{
+  font-family: "TT Ramillas";
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
     <body>
 	<section>
-    <h1 class="d-flex justify-content-center mt-2 text-white">PROJECTS</h1>
+    <h1 class="d-flex justify-content-center mt-2 text-white">Projects</h1>
     <div>
     <div class="container-fluid">
         <div class="row gap-5 mx-3 d-sm-flex justify-content-center">
@@ -102,7 +102,7 @@ body {
 	transform: translateY(-20px);
 }
 /*
-.container .card .content .imgBx {
+img {
 	position: relative;
 	width: 150px;
 	height: 150px;
@@ -161,4 +161,7 @@ body {
 	padding:5px;
 	margin-bottom:5px;
 } 
+h1{
+	font-family: "TT Ramillas";
+}
 </style>

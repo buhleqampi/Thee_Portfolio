@@ -1,5 +1,5 @@
 <template>
-  <h1 class="d-flex justify-content-center mt-2 text-white">RESUME</h1>
+  <h1 class="d-flex justify-content-center mt-2 text-white">Resume</h1>
   <section class="design-section"> 
   <div class="timeline">
     <div class="timeline-empty">
@@ -37,7 +37,7 @@
 
        </div>
        <div class="container text-center">
-      <h1 class="tech">TECH STACK</h1>
+      <h1 class="tech">Tech Stack</h1>
        <div class="row">
        <div class="col"><i class="fa-brands fa-html5 fa-6x"></i></div>
        <div class="col"><i class="fa-brands fa-css3-alt fa-6x"></i></div>
@@ -131,5 +131,8 @@
   .col{
     color:#F27121;
   }
+}
+h1 {
+  font-family: 'TT Ramillas';
 }
 </style>
