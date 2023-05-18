@@ -1,5 +1,5 @@
 <template>
-     <div class="footer footer-expand-lg row" id="only">
+     <div class="footer footer-expand-lg row fixed-bottom" id="only">
         <ul>
             <li>
                 <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
