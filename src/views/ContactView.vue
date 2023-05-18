@@ -3,23 +3,23 @@
         <div class="col">
         <h2 class="d-flex justify-content-center mt-2 text-white">Connect with me</h2>
         <div class="row">
-            <p><i class="fa-light fa-location-dot"></i>Nyanga, Cape Town</p>
-            <p><i class="fa-solid fa-phone-volume"></i>0636350263</p>
-            <p><i class="fa-thin fa-envelope"></i>buhle3857@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot"></i>Nyanga, Cape Town</p>
+            <p><i class="fa-solid fa-phone"></i>0636350263</p>
+            <p><i class="fa-solid fa-envelope"></i>buhle3857@gmail.com</p>
         </div>
         <div class="row">
             <ul class="icons">
             <li>
-                <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/buhle-qampi-293140158/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/buhle-qampi-293140158/" target="_blank"><i class="fa-brands fa-linkedin fa-3x"></i></a>
             </li>
             <li>
-                <a href="https://www.facebook.com/buhle.qampi/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/buhle.qampi/" target="_blank"><i class="fa-brands fa-facebook fa-3x"></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/gingerqamps/"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/gingerqamps/"  target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
             </li>
         </ul>   
         </div>
@@ -41,7 +41,7 @@
         </div>
         <label for="message" class="form-label">Message</label>
         <textarea type="message" name="message" class="form-control" id="exampleInputMessage" placeholder="Write something" required></textarea>
-        <button type="submit" class="btn btn-secondary">Submit</button>
+        <button type="submit" class="btn btn-secondary" style="margin-top: 10px;">Submit</button>
         </form>
         </div>
         </div>
@@ -58,4 +58,14 @@ ul li a {
 h2{
     font-family: Arial, Helvetica, sans-serif;
 }
+ul li {
+    padding:10px;
+}
+.row i {
+        padding-right: 5px;
+    }
+    .form-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 </style>

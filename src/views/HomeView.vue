@@ -2,12 +2,22 @@
   <div class="introduction justify-content center">
     <div class="row">
       <div class="col">
-      <h2 class=" mt-5">Hi, I am Buhle Qampi.
+      <h2 class=" mt-5"  style="display: flex; align-items: center;">Hi, I am Buhle Qampi.
       I am an intern web developer & aspiring AWS Cloud Practioner </h2>
     </div>
     <div class="col mt-5">
       <img src="https://i.postimg.cc/qBFgjvmB/landing-removebg-preview.png" alt="landing"/> 
     </div>
+    <div class="row">
+            <ul class="icons" style="text-align: left;">
+            <li style="display: inline;">
+                <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-5x"></i></a>
+            </li>
+            <li style="display:inline">
+                <a href="https://www.linkedin.com/in/buhle-qampi-293140158/" target="_blank"><i class="fa-brands fa-linkedin fa-5x"></i></a>
+            </li>
+        </ul>   
+        </div>
       </div>
       </div>
  </template>
@@ -17,20 +27,27 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
-  font-size: 70px;
+  font-size: 65px;
 }
 
-@keyframes bounce{
-    from { transform: translate3d(0, 0, 0);}
-    to { transform: translate3d(0, 200px, 0);}
+@keyframes orbit{
+   0%{
+    transform:rotate(0deg);
+   }
+   100%{
+    transform:rotate(360deg);
+   }
 }
 img{
     animation-name: bounce;
-    animation: bounce 0.5s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
+    animation: orbit 10s linear infinite;
+    /* animation-direction: linear;
+    animation-iteration-count: infinite; */
 }
 .col {
   justify-items: left;
+}
+ul li {
+    padding:15px;
 }
 </style>
