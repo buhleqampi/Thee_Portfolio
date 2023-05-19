@@ -39,16 +39,16 @@
        <div class="container text-center">
       <h1 class="tech">Tech Stack</h1>
        <div class="row">
-       <div class="col"><i class="fa-brands fa-html5 fa-6x"></i></div>
-       <div class="col"><i class="fa-brands fa-css3-alt fa-6x"></i></div>
-        <div class="col"><i class="fa-brands fa-square-js fa-6x"></i></div>
-        <div class="col"><i class="fa-brands fa-node-js fa-6x"></i></div>
+       <div class="col"><i class="fa-brands fa-html5 fa-6x fade-in"></i></div>
+       <div class="col"><i class="fa-brands fa-css3-alt fa-6x fade-in"></i></div>
+        <div class="col"><i class="fa-brands fa-square-js fa-6x fade-in"></i></div>
+        <div class="col"><i class="fa-brands fa-node-js fa-6x fade-in"></i></div>
         </div>
         <div class="row">
-        <div class="col"><i class="fa-brands fa-vuejs fa-6x"></i></div>
-        <div class="col"><i class="fa-brands fa-bootstrap fa-6x"></i></div>
-        <div class="col"><i class="fa-brands fa-figma fa-6x"></i></div>
-        <div class="col"><i class="fa-brands fa-wordpress fa-6x"></i></div>
+        <div class="col"><i class="fa-brands fa-vuejs fa-6x fade-in"></i></div>
+        <div class="col"><i class="fa-brands fa-bootstrap fa-6x fade-in"></i></div>
+        <div class="col"><i class="fa-brands fa-figma fa-6x fade-in"></i></div>
+        <div class="col"><i class="fa-brands fa-wordpress fa-6x fade-in"></i></div>
         </div>
         <div class="row">
           <div class="col">
@@ -140,4 +140,18 @@ h1 {
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-color:#025464;
     }
+  .fade-in {
+  opacity: 0;
+  animation: fade-in-animation 1s forwards;
+}
+
+@keyframes fade-in-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 </style>

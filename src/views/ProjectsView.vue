@@ -4,7 +4,7 @@
     <h1 class="d-flex justify-content-center mt-2 text-white">Projects</h1>
     <div>
     <div class="container-fluid">
-        <div class="row gap-5 mx-3 d-sm-flex justify-content-center">
+        <div class="row gap-5 mx-1 d-sm-flex justify-content-center">
     <div class="card" v-for="item in projects" :key="item">
 			<h5 class="card-title mt-5">{{ item.name }}</h5>
             <img :src="item.image" class="mx-auto d-block" style="width: 15rem;"/>
@@ -41,7 +41,7 @@ export default {
             },
 			{	name: "Node Full Stack Project",
                 image:"https://i.postimg.cc/cL4nVQVV/Screenshot-2023-05-16-114358.png",
-                description:"I worked in a pair did a full stack project using Node",
+                description:"I worked in a pair did a full stack project using Node.js",
                 GitHub:"https://github.com/zoefaithdaniels/Node-FullstackProject.git",
                 Live:"http://vue-eomp.firebaseapp.com/"
             },
@@ -78,13 +78,13 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	background:  #1f1f1f;;
-	min-height: 100vh;
+	background:  #1f1f1f;
 }
 .card{
 	width: 300px;
-	height: 400px;
-	margin: 20px;
+	height: 350px;
+	margin: 30px;
+	margin-top: 30px;
 	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
 	border-radius: 15px;
 	justify-content: center;
@@ -99,18 +99,6 @@ body {
 	background-color: gray;
 	font-family: Georgia, 'Times New Roman', Times, serif
 }
-/* .card .link {
-	list-style: none;
-	margin: 0 10px;
-	transform: translateY(40px);
-	transition: 0.5s;
-	opacity: 0;
-} */
-
-/* .card:hover .link{
-	transform: translateY(0px);
-	opacity: 1;
-} */
 h1{
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -126,4 +114,8 @@ h1{
 .github-btn , .live-btn {
 	background-color: #025464;
 }
+/* .card {
+  padding-bottom: 0.2rem; 
+} */
+
 </style>

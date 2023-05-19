@@ -24,6 +24,7 @@ img{
 .lead {
   margin-bottom:20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
  }
  h1{
   font-family: Arial, Helvetica, sans-serif;

@@ -3,7 +3,7 @@
     <div class="row" style="display: flex; align-items: center;">
       <div class="col">
       <h2 class=" mt-5"  >Hi, I am Buhle Qampi.
-      I am an intern web developer & aspiring AWS Cloud Practioner </h2>
+      I am an intern web developer & aspiring AWS Cloud Practitioner </h2>
       <ul class="icons" >
             <li style="display: inline;">
                 <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-5x"></i></a>
@@ -39,8 +39,6 @@ h2 {
 img{
     animation-name: bounce;
     animation: orbit 10s linear infinite;
-    /* animation-direction: linear;
-    animation-iteration-count: infinite; */
 }
 .col {
   justify-items: left;
@@ -50,5 +48,21 @@ ul li {
 }
 ul li a {
     color:gray;
+}
+.col ul li a:hover i {
+  color: #ffffff;
+}
+.icons li a i:hover {
+  animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
 }
 </style>

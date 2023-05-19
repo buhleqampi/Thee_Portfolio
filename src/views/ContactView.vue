@@ -3,9 +3,9 @@
         <div class="col">
         <h2 class="d-flex justify-content-center mt-2 text-white">Connect with me</h2>
         <div class="row">
-            <p><i class="fa-solid fa-location-dot"></i>Nyanga, Cape Town</p>
-            <p><i class="fa-solid fa-phone"></i>0636350263</p>
-            <p><i class="fa-solid fa-envelope"></i>buhle3857@gmail.com</p>
+            <p class="larger-p"><i class="fa-solid fa-location-dot"></i>Nyanga, Cape Town</p>
+            <p class="larger-p"><i class="fa-solid fa-phone"></i>0636350263</p>
+            <p class="larger-p"><i class="fa-solid fa-envelope"></i>buhle3857@gmail.com</p>
         </div>
         <div class="row">
             <ul class="icons">
@@ -67,4 +67,28 @@ ul li {
 .submit-btn{
     background-color:  #025464;
 } 
+.larger-p {
+    font-size: 2rem; 
+}
+.icons li a i {
+  transition: transform 0.3s; 
+}
+
+/* Add bounce animation */
+.icons li a i:hover {
+  animation: bounce 0.5s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+.row ul li a:hover i {
+  color: #ffffff;
+}
 </style>

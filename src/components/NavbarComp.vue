@@ -5,7 +5,7 @@
 <img src="https://i.postimg.cc/HkZM7fBz/logo2.png" alt="logo"/>
 </li>
 <li style="display:inline" id="bar">
-<router-link to="/">Home</router-link> 
+<router-link to="/" class="active">Home</router-link> 
 </li>
 <li style="display:inline">
 <router-link to="/about">About</router-link> 
@@ -25,6 +25,7 @@
 </ul> 
 </nav>
 </template>
+
 
 <style scoped>
 nav ul li {
@@ -46,4 +47,8 @@ nav ul li {
    #bar {
       flex-direction: column;
    }
+   nav ul li:hover {
+  background-color: #ffffff; 
+  color: #000000; 
+}
 </style>
