@@ -125,14 +125,14 @@
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
-  .tech{
+}
+tech{
     color: white;
     margin-top: 25px;
   }
   .col{
     color:#F27121;
   }
-}
 h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -140,18 +140,13 @@ h1 {
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-color:#025464;
     }
-  .fade-in {
-  opacity: 0;
-  animation: fade-in-animation 1s forwards;
+    .fade-in {
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 
-@keyframes fade-in-animation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.fade-in:hover {
+  opacity: 0.5;
 }
 
 </style>

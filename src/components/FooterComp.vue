@@ -7,7 +7,7 @@
 
             </main>
             <footer>
-        <div class="footer footer-expand-lg row fixed-bottom" id="only">
+        <div class="footer footer-expand-lg row sticky" id="only">
             <p>&copy;Made By Buhle Qampi</p>
             <ul style="margin-top:7px;">
                 <li>
@@ -69,6 +69,9 @@ footer.fixed-bottom {
   bottom: 0;
   width: 100%;
   height: 50px;
+}
+@media screen and(min-width: 576px){
+
 }
 
 </style>

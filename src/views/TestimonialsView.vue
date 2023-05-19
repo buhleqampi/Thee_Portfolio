@@ -1,4 +1,5 @@
 <template>
+  <body>
     <div class="container px-5">
         <div class="row" style="height: 100%;">
             <h1 class="d-flex justify-content-center mt-2 text-white">Testimonials</h1>
@@ -43,6 +44,7 @@
 </figure>
     </div>
     </div>
+  </body>
 </template>
 
 <style scoped>
@@ -143,5 +145,16 @@ figure.lebo .author h5 span {
 }
 h1{
   font-family: Arial, Helvetica, sans-serif;
+}
+.lebo {
+  transition: transform 0.5s;
+}
+
+.lebo:hover {
+  transform: scale(1.1);
+}
+body{
+  min-height: 100vh;
+  background-color: #1f1f1f;
 }
 </style>

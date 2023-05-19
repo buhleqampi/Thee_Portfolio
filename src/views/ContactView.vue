@@ -1,4 +1,5 @@
 <template>
+    <body>
         <div class="row">
         <div class="col">
         <h2 class="d-flex justify-content-center mt-2 text-white">Connect with me</h2>
@@ -45,6 +46,7 @@
         </form>
         </div>
         </div>
+    </body>
     </template>
 
 <style scoped>
@@ -68,7 +70,8 @@ ul li {
     background-color:  #025464;
 } 
 .larger-p {
-    font-size: 2rem; 
+    font-size: 2rem;
+    color: gray; 
 }
 .icons li a i {
   transition: transform 0.3s; 
@@ -90,5 +93,9 @@ ul li {
 }
 .row ul li a:hover i {
   color: #ffffff;
+}
+body{
+  min-height: 100vh;
+  background-color: #1f1f1f;
 }
 </style>

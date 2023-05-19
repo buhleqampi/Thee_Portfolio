@@ -1,4 +1,5 @@
 <template>
+  <body>
   <div class="introduction justify-content center">
     <div class="row" style="display: flex; align-items: center;">
       <div class="col">
@@ -18,6 +19,7 @@
     </div>
       </div>
       </div>
+    </body>
  </template>
 <style scoped>
 .introduction {
@@ -26,6 +28,10 @@
 }
 h2 {
   font-size: 65px;
+}
+body{
+  min-height: 100vh;
+  background-color: #1f1f1f;
 }
 
 @keyframes orbit{
@@ -64,5 +70,14 @@ ul li a {
   50% {
     transform: scale(1.2);
   }
+}
+@media screen and (max-width:576px) {
+  h2 {
+  font-size: 60px;
+  line-height:3.5rem;
+}
+img{
+  margin-bottom:45px;
+}
 }
 </style>
