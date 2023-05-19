@@ -16,7 +16,7 @@
                 <a href="https://www.linkedin.com/in/buhle-qampi-293140158/" target="_blank"><i class="fa-brands fa-linkedin fa-3x"></i></a>
             </li>
             <li>
-                <a href="https://www.facebook.com/buhle.qampi/" target="_blank"><i class="fa-brands fa-facebook fa-3x"></i></a>
+                <a href="https://www.facebook.com/buhle.qampi/" target="_blank"><i class="fa-brands fa-facebook fa-3x "></i></a>
             </li>
             <li>
                 <a href="https://www.instagram.com/gingerqamps/"  target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
@@ -41,7 +41,7 @@
         </div>
         <label for="message" class="form-label">Message</label>
         <textarea type="message" name="message" class="form-control" id="exampleInputMessage" placeholder="Write something" required></textarea>
-        <button type="submit" class="btn btn-secondary" style="margin-top: 10px;">Submit</button>
+        <button type="submit" class="btn btn-secondary submit-btn" style="margin-top: 10px;">Submit</button>
         </form>
         </div>
         </div>
@@ -64,8 +64,7 @@ ul li {
 .row i {
         padding-right: 5px;
     }
-    .form-container {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+.submit-btn{
+    background-color:  #025464;
+} 
 </style>

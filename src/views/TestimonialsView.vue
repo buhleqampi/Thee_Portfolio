@@ -58,7 +58,7 @@ figure.lebo {
   color: #333;
   text-align: left;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  background-color:gray;
+  background-color:#025464;
   border-radius: 8px 8px 8px 8px;
 }
 figure.lebo * {

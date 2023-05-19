@@ -83,7 +83,7 @@
 }
 .timeline-content {
   padding: 20px;
-  background: #454545;
+  background: #F27121;
   -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
           box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
   border-radius: 5px;
@@ -107,7 +107,7 @@
   }
   .timeline-middle {
     position: relative;
-    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    background-image: linear-gradient(45deg,whitesmoke , #454545);
     width: 3px;
     height: 100%;
   }
@@ -121,7 +121,7 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    background-image: linear-gradient(45deg,whitesmoke, #454545);
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
@@ -136,4 +136,8 @@
 h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
+.btn {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color:#025464;
+    }
 </style>

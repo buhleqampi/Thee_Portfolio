@@ -10,8 +10,8 @@
             <img :src="item.image" class="mx-auto d-block" style="width: 15rem;"/>
             <div class="card-body text-black">
                 <p class="card-text">{{ item.description }}</p>
-                <h5 class="link"><a :href="item.GitHub" target="_blank">Github</a></h5>
-                <h5 class="link"><a :href="item.Live" target="_blank">Live</a></h5>
+              <a :href="item.GitHub" target="_blank" class="github-link"><button type="text" class="btn btn-secondary btn-md github-btn">Github</button></a>
+            <a :href="item.Live" target="_blank" class="live-link"><button type="text" class="btn btn-secondary btn-md live-btn">Live</button></a>
             </div>
         </div>
     </div>
@@ -99,70 +99,31 @@ body {
 	background-color: gray;
 	font-family: Georgia, 'Times New Roman', Times, serif
 }
-.card:hover .link {
-	transform: translateY(-20px);
-}
-/*
-img {
-	position: relative;
-	width: 150px;
-	height: 150px;
-	overflow: hidden;
-}
-
-.container .card .content .imgBx img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: center;
-}
-
-.container .card .content .contentBx h3 {
-	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-weight: 500;
-	font-size: 18px;
-	text-align: center;
-	margin: 20px 0 10px;
-	line-height: 1.1em;
-}
-
-.container .card .content .contentBx h3 span {
-	font-size: 12px;
-	font-weight: 300;
-	text-transform: initial;
-} */
-
-/* .container .card  {
-	position: absolute;
-	bottom: 50px;
-	display: flex;
-}
-
-.container .card .sci li {
+/* .card .link {
 	list-style: none;
 	margin: 0 10px;
 	transform: translateY(40px);
 	transition: 0.5s;
 	opacity: 0;
-}
+} */
 
-. .card:hover .sci li {
+/* .card:hover .link{
 	transform: translateY(0px);
 	opacity: 1;
+} */
+h1{
+	font-family: Arial, Helvetica, sans-serif;
 }
-*/
-.link {
-	display:inline;
+.github-link, .live-link  {
 	color: #fff;
+	display:inline;
 	font-size: 20px;
 	padding:5px;
 	margin-bottom:5px;
-} 
-h1{
-	font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.github-btn , .live-btn {
+	background-color: #025464;
 }
 </style>

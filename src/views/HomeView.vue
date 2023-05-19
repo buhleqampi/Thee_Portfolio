@@ -1,15 +1,10 @@
 <template>
   <div class="introduction justify-content center">
-    <div class="row">
+    <div class="row" style="display: flex; align-items: center;">
       <div class="col">
-      <h2 class=" mt-5"  style="display: flex; align-items: center;">Hi, I am Buhle Qampi.
+      <h2 class=" mt-5"  >Hi, I am Buhle Qampi.
       I am an intern web developer & aspiring AWS Cloud Practioner </h2>
-    </div>
-    <div class="col mt-5">
-      <img src="https://i.postimg.cc/qBFgjvmB/landing-removebg-preview.png" alt="landing"/> 
-    </div>
-    <div class="row">
-            <ul class="icons" style="text-align: left;">
+      <ul class="icons" >
             <li style="display: inline;">
                 <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-5x"></i></a>
             </li>
@@ -17,7 +12,10 @@
                 <a href="https://www.linkedin.com/in/buhle-qampi-293140158/" target="_blank"><i class="fa-brands fa-linkedin fa-5x"></i></a>
             </li>
         </ul>   
-        </div>
+    </div>
+    <div class="col mt-5">
+      <img src="https://i.postimg.cc/qBFgjvmB/landing-removebg-preview.png" alt="landing"/> 
+    </div>
       </div>
       </div>
  </template>
@@ -49,5 +47,8 @@ img{
 }
 ul li {
     padding:15px;
+}
+ul li a {
+    color:gray;
 }
 </style>
