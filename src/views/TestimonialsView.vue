@@ -48,6 +48,10 @@
 </template>
 
 <style scoped>
+body{
+  min-height: 100vh;
+  background-color: #1f1f1f;
+}
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 figure.lebo {
@@ -153,8 +157,21 @@ h1{
 .lebo:hover {
   transform: scale(1.1);
 }
-body{
-  min-height: 100vh;
-  background-color: #1f1f1f;
+@media screen and (min-width:576px) {
+  figure.lebo {
+  min-width: 320px;
+  }
+  figure.lebo .author h5{
+    font-weight: 500px;
+    margin: 1px;
+  }
+figure.lebo .author {
+  position: absolute;
+}
+@media screen and (max-width: 576px) {
+                    .lebo {
+                        width: 50%; /* Set the width to 50% to show two cards in a row */
+                    }
+                }
 }
 </style>

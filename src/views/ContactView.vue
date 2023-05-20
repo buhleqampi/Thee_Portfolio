@@ -50,39 +50,28 @@
     </template>
 
 <style scoped>
-/* Screen View */
-body{
-  min-height: 100vh;
-  background-color: #1f1f1f;
-}
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-}
-/* Form */
+
 form {
     margin:5px;
 }
-.submit-btn{
-    background-color:  #025464;
-} 
 ul li a {
     color:gray;
     width:200px;
 }
-/* Form labels */
-form-control{
-    color: gray;
+
+ul li {
+    padding:10px;
 }
-/* Details icons */
 .row i {
         padding-right: 5px;
     }
-
+.submit-btn{
+    background-color:  #025464;
+} 
 .larger-p {
     font-size: 2rem;
     color: gray; 
 }
-/* Icons animation */
 .icons li a i {
   transition: transform 0.3s; 
 }
@@ -101,7 +90,14 @@ form-control{
     transform: scale(1.2);
   }
 }
-.row ul li a:hover i {
+/* .row ul li a:hover i {
   color: #ffffff;
+} */
+body{
+  min-height: 100vh;
+  background-color: #1f1f1f;
+}
+mb-3{
+    color: gray;
 }
 </style>

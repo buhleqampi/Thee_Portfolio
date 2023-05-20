@@ -62,7 +62,7 @@ body {
   position: relative;
 }
 
-footer.fixed-bottom {
+footer.sticky {
   position: fixed;
   left: 0;
   right: 0;

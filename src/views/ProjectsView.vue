@@ -114,8 +114,5 @@ h1{
 .github-btn , .live-btn {
 	background-color: #025464;
 }
-/* .card {
-  padding-bottom: 0.2rem; 
-} */
 
 </style>

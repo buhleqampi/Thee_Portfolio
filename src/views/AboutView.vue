@@ -1,4 +1,5 @@
 <template>
+  <body>
       <div class="container px-5">
     <div class="row" style="height: 100%;">
   <h1 class="d-flex justify-content-center mt-2 text-white">About Me</h1> 
@@ -14,9 +15,17 @@
   </div>
   </div>
   </div>
+</body>
 </template>
 
 <style scoped>
+ body{
+  min-height: 100vh;
+  background-color: #1f1f1f;
+ }
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+ }
 img{
   width:500px;
   margin-bottom:5px;
@@ -26,7 +35,18 @@ img{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
  }
- h1{
-  font-family: Arial, Helvetica, sans-serif;
+ 
+ @media screen and (max-width: 992px) {
+  img{
+  width:500px;
+}
+.lead {
+  display: inline;
+  font-size: 19px;
+ }
+ body{
+  min-height: 100vh;
+  background-color: #1f1f1f;
+ }
  }
 </style>

@@ -71,7 +71,6 @@
   background-color: #1f1f1f;
   min-height: 100vh;
   padding: 100px 0;
-  /* font-family: Old Standard TT; */
 }
 .timeline {
   width: 50%;
@@ -88,12 +87,10 @@
           box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
   border-radius: 5px;
   color: white;
-  /* padding: 1.75rem; */
   transition: 0.4s ease;
   overflow-wrap: break-word !important;
   margin: 1rem;
   margin-bottom: 20px;
-  /* border-radius: 6px; */
 }
 .timeline-component {
   margin: 0px 20px 20px 20px;
@@ -137,6 +134,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 .btn {
+        margin-top: 10px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-color:#025464;
     }
