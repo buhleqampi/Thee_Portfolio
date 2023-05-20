@@ -90,9 +90,9 @@ ul li {
     transform: scale(1.2);
   }
 }
-/* .row ul li a:hover i {
+.row ul li a:hover i {
   color: #ffffff;
-} */
+}
 body{
   min-height: 100vh;
   background-color: #1f1f1f;
