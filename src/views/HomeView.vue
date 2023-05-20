@@ -24,7 +24,7 @@
 <style scoped>
 .introduction {
   color:#F27121;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2 {
   font-size: 65px;

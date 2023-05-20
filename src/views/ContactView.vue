@@ -50,29 +50,39 @@
     </template>
 
 <style scoped>
-form {
-    margin:5px;
-}
-ul li a {
-    color:gray;
-    width:200px;
+/* Screen View */
+body{
+  min-height: 100vh;
+  background-color: #1f1f1f;
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
 }
-ul li {
-    padding:10px;
+/* Form */
+form {
+    margin:5px;
 }
-.row i {
-        padding-right: 5px;
-    }
 .submit-btn{
     background-color:  #025464;
 } 
+ul li a {
+    color:gray;
+    width:200px;
+}
+/* Form labels */
+form-control{
+    color: gray;
+}
+/* Details icons */
+.row i {
+        padding-right: 5px;
+    }
+
 .larger-p {
     font-size: 2rem;
     color: gray; 
 }
+/* Icons animation */
 .icons li a i {
   transition: transform 0.3s; 
 }
@@ -93,9 +103,5 @@ ul li {
 }
 .row ul li a:hover i {
   color: #ffffff;
-}
-body{
-  min-height: 100vh;
-  background-color: #1f1f1f;
 }
 </style>
