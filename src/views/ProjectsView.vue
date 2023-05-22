@@ -97,7 +97,7 @@ body {
 	flex-direction: column;
 	transition: 0.5s;
 	background-color: gray;
-	font-family: Georgia, 'Times New Roman', Times, serif
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 h1{
 	font-family: Arial, Helvetica, sans-serif;

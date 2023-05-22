@@ -2,11 +2,11 @@
     <body>
         <div class="row">
         <div class="col">
-        <h2 class="d-flex justify-content-center mt-2 text-white">Connect with me</h2>
+        <h2 class="d-flex justify-content-center mt-2 text-white">Connect With Me</h2>
         <div class="row">
-            <p class="larger-p"><i class="fa-solid fa-location-dot"></i>Nyanga, Cape Town</p>
-            <p class="larger-p"><i class="fa-solid fa-phone"></i>0636350263</p>
-            <p class="larger-p"><i class="fa-solid fa-envelope"></i>buhle3857@gmail.com</p>
+            <p class="larger-p"><i class="fa-solid fa-location-dot detail"></i>Nyanga, Cape Town</p>
+            <p class="larger-p"><i class="fa-solid fa-phone detail"></i>0636350263</p>
+            <p class="larger-p"><i class="fa-solid fa-envelope  detail"></i>buhle3857@gmail.com</p>
         </div>
         <div class="row">
             <ul class="icons">
@@ -50,6 +50,9 @@
     </template>
 
 <style scoped>
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+}
 
 form {
     margin:5px;
@@ -71,6 +74,7 @@ ul li {
 .larger-p {
     font-size: 2rem;
     color: gray; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .icons li a i {
   transition: transform 0.3s; 
@@ -99,5 +103,8 @@ body{
 }
 mb-3{
     color: gray;
+}
+.detail {
+    color: white;
 }
 </style>

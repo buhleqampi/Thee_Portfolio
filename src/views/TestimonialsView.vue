@@ -97,7 +97,7 @@ figure.lebo blockquote {
   text-align: left;
   margin: 0;
   line-height: 1.6em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 figure.lebo blockquote:before,
 figure.lebo blockquote:after {

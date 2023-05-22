@@ -24,7 +24,7 @@
 <style scoped>
 .introduction {
   color:#F27121;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 h2 {
   font-size: 65px;

@@ -37,7 +37,7 @@
 
        </div>
        <div class="container text-center">
-      <h1 class="tech">Tech Stack</h1>
+      <h1 class="tech text-white">Tech Stack</h1>
        <div class="row">
        <div class="col"><i class="fa-brands fa-html5 fa-6x fade-in"></i></div>
        <div class="col"><i class="fa-brands fa-css3-alt fa-6x fade-in"></i></div>
@@ -94,7 +94,7 @@
 }
 .timeline-component {
   margin: 0px 20px 20px 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 @media screen and (min-width: 768px) {
@@ -124,7 +124,7 @@
   }
 }
 tech{
-    color: white;
+    /* color: white; */
     margin-top: 25px;
   }
   .col{
@@ -135,7 +135,7 @@ h1 {
 }
 .btn {
         margin-top: 10px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background-color:#025464;
     }
     .fade-in {
